@@ -8,13 +8,13 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", self_bot=True, intents=intents)
 
 allowed_users = [
-    123456789012345678,  # Replace with real allowed user IDs
+    762245134485946399,  # Replace with real allowed user IDs
     987654321098765432
 ]
 
 correct_emoji = "✅"
 wrong_emoji = "❌"
-event_channel_id = 112233445566778899  # Replace with your actual event channel ID
+event_channel_id = 1397752703911727168  # Replace with your actual event channel ID
 
 @bot.event
 async def on_ready():
@@ -35,4 +35,4 @@ async def on_reaction_add(reaction, user):
         except Exception as e:
             print(f"⚠️ Error removing reaction: {e}")
 
-bot.run("YOUR_DISCORD_ACCOUNT_TOKEN", bot=False)
+bot.run("MTE1ODM2Mjc5OTQyOTM5ODUzOA.GVV_4g.YI8R53g10P6HcYMJ1WovEK9QzveEZ-CVpOsQ7A", bot=False)
